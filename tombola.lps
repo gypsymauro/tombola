@@ -7,10 +7,9 @@
       <Unit0>
         <Filename Value="tombola.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="42" Y="19"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="115" Y="15"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,8 +18,10 @@
         <ComponentName Value="FrmTombola"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <CursorPos X="106" Y="8"/>
-        <UsageCount Value="20"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="113"/>
+        <CursorPos X="71" Y="122"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -36,11 +37,11 @@
         <EditorIndex Value="2"/>
         <TopLine Value="3456"/>
         <CursorPos Y="3476"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="11"/>
         <Loaded Value="True"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="16" HistoryIndex="15">
       <Position1>
         <Filename Value="ftombola.pas"/>
         <Caret Line="8" Column="106"/>
@@ -53,6 +54,58 @@
         <Filename Value="tombola.lpr"/>
         <Caret Line="19" Column="47"/>
       </Position3>
+      <Position4>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="187" Column="55" TopLine="170"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="189" Column="55" TopLine="172"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="263" Column="3" TopLine="260"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="264" Column="3" TopLine="261"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="266" Column="3" TopLine="263"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="327" Column="3" TopLine="307"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="326" Column="3" TopLine="306"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="327" Column="3" TopLine="307"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="328" Column="3" TopLine="308"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="329" Column="3" TopLine="309"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="336" Column="3" TopLine="311"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="315" Column="59" TopLine="312"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="126" Column="122" TopLine="120"/>
+      </Position16>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

@@ -18,8 +18,14 @@ type
     GBTabellone: TGroupBox;
     GroupBox1: TGroupBox;
     GroupBox2: TGroupBox;
+    GroupBox3: TGroupBox;
     Image1: TImage;
     Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Panel1: TPanel;
     PLastBig: TPanel;
     PCabala: TPanel;
     PLast: TPanel;
@@ -31,7 +37,10 @@ type
     procedure GBTabelloneClick(Sender: TObject);
     procedure GroupBox1Click(Sender: TObject);
     procedure GroupBox2Click(Sender: TObject);
+    procedure GroupBox3Click(Sender: TObject);
     procedure Label1Click(Sender: TObject);
+    procedure Label5Click(Sender: TObject);
+    procedure Memo1Change(Sender: TObject);
     procedure PageControl1Change(Sender: TObject);
   private
 
@@ -50,6 +59,7 @@ var
 
 const
      btnsize = 50;
+     btnspacer = 4;
      itemxcol = 10;
      colsize = btnsize + 4;
      extrColor = clRed;
@@ -81,7 +91,7 @@ begin
   smorfia.add('''A jatta (il gatto)');
   smorfia.add('''O puorco (il maiale)');
   smorfia.add('''A mano (la mano)');
-  smorfia.add('Chella che guarda ''nterra (organo sessuale femminile)');
+  smorfia.add('Chella che guarda ''nterra (organo sess. femminile)');
   smorfia.add('''A scuppetta (il fucile)');
   smorfia.add('''A maronna (la madonna)');
   smorfia.add('''A figliata (la prole)');
@@ -104,8 +114,8 @@ begin
   smorfia.add('Nanninella (diminuitivo del nome Anna)');
   smorfia.add(''' O cantero (il vaso da notte)');
   smorfia.add('''E zzizze (il seno)');
-  smorfia.add('''O pate d''e criature (organo sessuale maschile)');
-  smorfia.add('''E palle d''o tenente (le palle del tenente, riferito all''organo sessuale maschile)');
+  smorfia.add('''O pate d''e criature (organo sess. maschile)');
+  smorfia.add('''E palle d''o tenente (le palle del tenente)');
   smorfia.add('''O padrone ''e casa (il proprietario di casa)');
   smorfia.add('''O capitone (il capitone)');
   smorfia.add('L''anne '' e Cristo (gli anni di Cristo)');
@@ -118,7 +128,7 @@ begin
   smorfia.add('''A paposcia (ernia inguinale)');
   smorfia.add('''O curtiello (il coltello)');
   smorfia.add('''O ccafè (il caffè)');
-  smorfia.add('''Onna pereta affacciata ''o balcone (una donna volgare affacciata al balcone)');
+  smorfia.add('''Onna pereta affacciata ''o balcone (donna al balcone)');
   smorfia.add('''E ccancelle (il carcere)');
   smorfia.add('''O vino (il vino)');
   smorfia.add('''E denare (i denari)');
@@ -182,8 +192,8 @@ begin
     obj.parent := GBTabellone;
     obj.Height:= 50;
     obj.Width:= 50;
-    obj.top :=  colsize * c;
-    obj.left := obj.Width * r;
+    obj.top :=  colsize * c + ( btnspacer * c);
+    obj.left := (obj.Width * r) + ( btnspacer * (r +1)) ;
     obj.Caption := inttostr(i+1);
     obj.Visible:= True;
     obj.Color := noextrColor;
@@ -255,6 +265,11 @@ begin
 
 end;
 
+procedure TFrmTombola.GroupBox3Click(Sender: TObject);
+begin
+
+end;
+
 procedure TFrmTombola.clearTabellone();
 var i, n: integer;
 begin
@@ -307,6 +322,16 @@ end;
 
 
 procedure TFrmTombola.Label1Click(Sender: TObject);
+begin
+
+end;
+
+procedure TFrmTombola.Label5Click(Sender: TObject);
+begin
+
+end;
+
+procedure TFrmTombola.Memo1Change(Sender: TObject);
 begin
 
 end;
