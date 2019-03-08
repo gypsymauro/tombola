@@ -15,7 +15,6 @@ object FrmTombola: TFrmTombola
     Width = 552
     Caption = 'TABELLONE'
     TabOrder = 0
-    OnClick = GBTabelloneClick
   end
   object GroupBox1: TGroupBox
     Left = 16
@@ -26,7 +25,6 @@ object FrmTombola: TFrmTombola
     ClientHeight = 521
     ClientWidth = 158
     TabOrder = 1
-    OnClick = GroupBox1Click
     object btEstract: TButton
       Left = 8
       Height = 66
@@ -90,7 +88,6 @@ object FrmTombola: TFrmTombola
     ClientHeight = 90
     ClientWidth = 1038
     TabOrder = 2
-    OnClick = GroupBox2Click
     object PLastBig: TPanel
       Left = 208
       Height = 74
@@ -122,7 +119,6 @@ object FrmTombola: TFrmTombola
       Font.Height = -16
       ParentColor = False
       ParentFont = False
-      OnClick = Label1Click
     end
   end
   object GroupBox3: TGroupBox
@@ -134,7 +130,6 @@ object FrmTombola: TFrmTombola
     ClientHeight = 522
     ClientWidth = 310
     TabOrder = 3
-    OnClick = GroupBox3Click
     object Image1: TImage
       Left = 8
       Height = 344
@@ -4258,7 +4253,6 @@ object FrmTombola: TFrmTombola
         Width = 150
         Caption = 'gypsymauro@gmail.com'
         ParentColor = False
-        OnClick = Label5Click
       end
     end
   end

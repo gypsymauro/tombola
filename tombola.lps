@@ -9,7 +9,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="115" Y="15"/>
-        <UsageCount Value="21"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,9 +19,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="113"/>
-        <CursorPos X="71" Y="122"/>
-        <UsageCount Value="21"/>
+        <TopLine Value="126"/>
+        <CursorPos X="53" Y="145"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -30,18 +30,18 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="6"/>
         <CursorPos X="24" Y="16"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit2>
       <Unit3>
         <Filename Value="/usr/share/lazarus/2.0.0/lcl/include/control.inc"/>
         <EditorIndex Value="2"/>
         <TopLine Value="3456"/>
         <CursorPos Y="3476"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="13"/>
         <Loaded Value="True"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="16" HistoryIndex="15">
+    <JumpHistory Count="20" HistoryIndex="19">
       <Position1>
         <Filename Value="ftombola.pas"/>
         <Caret Line="8" Column="106"/>
@@ -106,6 +106,22 @@
         <Filename Value="ftombola.pas"/>
         <Caret Line="126" Column="122" TopLine="120"/>
       </Position16>
+      <Position17>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="89" Column="17" TopLine="58"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="99" TopLine="92"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="36" Column="43" TopLine="17"/>
+      </Position19>
+      <Position20>
+        <Filename Value="ftombola.pas"/>
+        <Caret Line="154" Column="8" TopLine="139"/>
+      </Position20>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

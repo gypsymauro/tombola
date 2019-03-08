@@ -47,7 +47,7 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="tombola"/>
+      <Filename Value="bin/tombola"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
